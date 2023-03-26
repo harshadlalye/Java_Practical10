@@ -1,0 +1,23 @@
+Q.18. Differentiate between the following topics point by point: 
+6. Class and Interface 
+7. Interface and Package 
+8. Abstract Class and Interface
+Class and Interface:
+A class is a blueprint or a template for creating objects that define the properties and behavior of those objects.
+An interface is a collection of abstract methods (methods without implementations) that define a set of behaviors that a class can implement.
+A class can have constructors, fields, methods, and properties, whereas an interface cannot have constructors or fields.
+A class can be instantiated to create objects, whereas an interface cannot be instantiated.
+A class can implement one or more interfaces, whereas an interface can extend one or more interfaces.
+Interface and Package:
+An interface is a collection of abstract methods that define a set of behaviors that a class can implement.
+A package is a container for organizing related classes, interfaces, and other resources.
+An interface defines a contract or a set of rules that a class must follow, whereas a package is a way to organize related classes and interfaces.
+An interface is a part of the class hierarchy, whereas a package is not.
+Interfaces can be placed inside a package, but a package cannot be placed inside an interface.
+Abstract Class and Interface:
+An abstract class is a class that cannot be instantiated and contains one or more abstract methods.
+An interface is a collection of abstract methods that define a set of behaviors that a class can implement.
+An abstract class can have non-abstract methods along with abstract methods, whereas an interface can only have abstract methods.
+A class can only inherit from one abstract class, whereas it can implement multiple interfaces.
+An abstract class can have constructors, whereas an interface cannot have constructors.
+An abstract class can have instance variables, whereas an interface cannot have instance variables.

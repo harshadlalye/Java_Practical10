@@ -1,0 +1,22 @@
+Q.17. Write a short note on: 
+1. Method and Constructor Overloading in Java 
+2. Method and Constructor Overriding in Java 
+3. Static Keyword in Java 
+4. Final Class in Java 
+5. “this” and “final” Keyword in Java
+Method and Constructor Overloading in Java:
+Method and constructor overloading is a feature in Java that allows the same method or constructor name to be used with different parameters or argument lists. This allows the programmer to write code that is more concise and flexible. When a method or constructor is overloaded, the compiler determines which version of the method or constructor to call based on the number, type, and order of the arguments passed.
+
+Method and Constructor Overriding in Java:
+Method and constructor overriding is a feature in Java that allows a subclass to provide its own implementation of a method or constructor that is already defined in its superclass. This enables the subclass to modify the behavior of the method or constructor without changing its signature. When a method or constructor is overridden, the subclass method or constructor is called instead of the superclass method or constructor when the method or constructor is invoked on an instance of the subclass.
+
+Static Keyword in Java:
+The static keyword is used in Java to indicate that a method or variable belongs to the class, rather than to an instance of the class. A static method or variable can be accessed using the class name, without the need to create an instance of the class. Static methods are commonly used for utility methods that don't require any state, while static variables are commonly used for constants or shared resources.
+
+Final Class in Java:
+A final class in Java is a class that cannot be subclassed. When a class is declared as final, it cannot be extended by any other class. This feature is often used to prevent the modification of a class's behavior, or to ensure that the class is not accidentally subclassed and used in a way that violates its intended design.
+
+“this” and “final” Keyword in Java:
+The this keyword in Java refers to the current instance of the class. It is often used to refer to instance variables and methods within a class, and can also be used to call one constructor from another in a class.
+
+The final keyword in Java is used to indicate that a variable or method cannot be modified after it has been initialized. A final variable can only be assigned a value once, while a final method cannot be overridden in a subclass. The final keyword is often used to create constants, or to ensure that certain behavior cannot be changed by subclasses.
